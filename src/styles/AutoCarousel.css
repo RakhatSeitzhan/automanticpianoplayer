@@ -1,0 +1,19 @@
+.AutoCarousel{
+    padding: 1rem;
+    overflow: hidden;
+}
+.AutoCarousel__container{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    height: fit-content;
+}
+.AutoCarousel__item{
+    opacity: 0;
+    scale: 0.9;
+}
+
+.AutoCarousel__item.current{
+    opacity: 1;
+    scale: 1;
+}

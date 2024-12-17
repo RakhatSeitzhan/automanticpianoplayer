@@ -1,0 +1,29 @@
+/* .key{
+    width: 2rem;
+    height: 4rem;
+} */
+
+.keyblack{
+    margin: 0 -0.75rem;
+    z-index: 10;
+    font-size: 0.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s;
+}
+.key{
+    font-size: 0.7rem;
+    display: flex;
+    align-items:end;
+    padding-bottom: 1rem;
+    justify-content: center;
+    color: gray;
+    transition: all 0.2s;
+}
+.keypressed.key{
+    background-color: rgb(217, 237, 255);
+}
+.keypressed.keyblack{
+    background-color: rgb(29, 93, 152);
+}
